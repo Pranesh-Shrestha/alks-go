@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  test:
+  test:  # matrix removed for IR
     runs-on: ubuntu-latest
     steps:
       - name: Setup InvisiRisk - Build Application Firewall
@@ -20,7 +20,7 @@ jobs:
           
       - name: Checkout Code
         uses: actions/checkout@v2
-      #- uses: actions/cache@v4
+      #- uses: actions/cache@v4  # Removed for IR
       #  with:
           # In order:
           # * Module download cache
@@ -36,6 +36,9 @@ jobs:
         #  restore-keys: |
          #   ${{ runner.os }}-go-
             
+      - name: Install dependencies # added for IR
+        run: go mod tidy
+        
       - name: Test
         run: go test
 
