@@ -3,6 +3,7 @@
 alks-go is a Go client library for accessing the ALKS API.
 
 **Documentation:** [![GoDoc](https://godoc.org/github.com/Cox-Automotive/akls-go/github?status.svg)](https://godoc.org/github.com/Cox-Automotive/alks-go)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FPranesh-Shrestha%2Falks-go.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2FPranesh-Shrestha%2Falks-go?ref=badge_shield)
 
 **Build Status:** [![Build Status](https://travis-ci.org/Cox-Automotive/alks-go.svg?branch=master)](https://travis-ci.org/Cox-Automotive/alks-go)
 
@@ -65,3 +66,6 @@ You can run the test with Make
 ```
 make test
 ```
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FPranesh-Shrestha%2Falks-go.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2FPranesh-Shrestha%2Falks-go?ref=badge_large)
